@@ -5,6 +5,7 @@
 package com.test.controller;
 
 import com.test.beans.Country;
+import com.test.beans.UserLog;
 import com.test.beans.UserWeb;
 import com.test.daoimplemenatation.DaoImplementation;
 import java.io.IOException;
@@ -81,6 +82,8 @@ public class UserController extends HttpServlet {
 
             if (a > 0) {
                 response.sendRedirect("index.jsp");
+                UserLog ul = new UserLog(u1.getUserName(), request.getLocalAddr(), "New Registration", "");
+                udi.addUserLogInfo(ul);
             } else {
                 response.sendRedirect("Login.jsp?errorMsg=4");
             }
