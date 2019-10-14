@@ -11,10 +11,8 @@
 
 
         <link rel="stylesheet" href="css/reset.css">
-
         <link rel='stylesheet prefetch' href='css/css.css'>
         <link rel='stylesheet prefetch' href='css/font-awesome.min.css'>
-
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/jquery1.min.js"></script>

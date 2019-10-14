@@ -139,6 +139,7 @@ public class DaoImplementation implements DaoInterface {
         }
         return u;
     }
+    
 
     @Override
     public int checkUserEmail(String email) {
